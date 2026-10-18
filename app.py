@@ -10,7 +10,7 @@ MODEL = "llama3.2:3b"
 
 st.set_page_config(
     page_title="Bella Italia | AI Assistant",
-    page_icon="🍕",
+    page_icon=None,
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -107,7 +107,7 @@ menu = get_menu()
 
 # ---------------- Language ----------------
 with st.sidebar:
-    st.markdown("## 🍕 Bella Italia")
+    st.markdown("##  Bella Italia")
     st.caption("Restaurant customer service")
 
     language = st.selectbox(
